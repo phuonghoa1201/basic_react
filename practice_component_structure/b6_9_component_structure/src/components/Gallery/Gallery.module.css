@@ -1,0 +1,27 @@
+.title{
+    text-align: center;
+    color: darkblue;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;         
+  justify-content: center;
+  gap: 16px;               
+  padding: 1rem;
+    
+}
+
+.imageItems{
+    width: 20%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.imageItems:hover{
+    transform: scale(1.05);
+}
+

@@ -1,0 +1,28 @@
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 220px;
+  text-align: center;
+  background-color: white;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
