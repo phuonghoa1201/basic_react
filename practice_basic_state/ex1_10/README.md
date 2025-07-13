@@ -1,12 +1,17 @@
-# React + Vite
+# React Props & State Mini Exercises (1–10)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Practice props, state, lists, and conditional rendering with 10 small React components:
 
-Currently, two official plugins are available:
+![React Props & State Mini Exercises (1–10)](https://i.pinimg.com/736x/51/90/5b/51905b2bf272a27675cb3db52d22fe47.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **1–2:** `UserProfile` shows name, age, and bio.
+- **3:** `Button` component with `text` and `type` props.
+- **4:** `Alert` shows colored message based on `type` prop; hidden if empty.
+- **5–6:** `PostList` renders list of posts with `PostItem` showing title, content, thumbnail, author.
+- **7:** `DataLoader` shows loading state; "Finish Loading" button updates state after 2s.
+- **8:** `AuthPanel` toggles between login form and logged-in message.
+- **9:** `LikeButton` displays and updates likes count.
+- **10:** `FeedbackForm` controlled textarea displaying live text.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is short, focused exercises to explore React fundamentals.  
+**Happy coding! 🚀**
