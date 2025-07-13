@@ -1,0 +1,40 @@
+.log{
+    text-align: center;
+    padding: 16px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.authentication {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  margin-left: 30px;
+}
+
+.login, .logout {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+}
+
+.login {
+  background-color: black;
+  color: white;
+
+}
+
+.logout {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+
+}

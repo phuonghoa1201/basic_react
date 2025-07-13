@@ -1,0 +1,71 @@
+.productCard {
+  width: 300px;
+  margin: 20px auto;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.itemProduct {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px; /* khoảng dưới để cách input */
+}
+
+.liItem {
+  padding: 6px 10px;
+  margin-bottom: 6px;
+  background: #f9fafb;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addContainer {
+  display: flex;
+  gap: 6px; 
+}
+
+.inputProduct {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.inputProduct:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.btnAdd {
+  padding: 6px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btnAdd:hover {
+  background-color: #43a047;
+}
+
+.btnDelete{
+  padding: 6px 10px;
+  background-color: #f70b0f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  align-self: flex-start;
+
+}

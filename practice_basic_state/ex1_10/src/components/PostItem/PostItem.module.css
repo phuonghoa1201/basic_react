@@ -1,0 +1,46 @@
+.cardItem {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 16px;
+    background-color: rgb(253, 249, 249);
+    padding-bottom: 16px;
+    display: grid;               
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto 1fr auto; 
+    gap: 10px;                 
+}
+
+.cardImg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cardTitle {
+    color: black;
+    font-weight: 700;
+    margin: 10px;  
+}
+
+.cardContent {
+    color: rgb(142, 139, 139);
+    font-weight: 300;
+     margin: 10px; 
+}
+
+.cardBtn {
+    background-color: #401cf6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    justify-self: end;      
+    cursor: pointer;
+    margin: 10px; 
+}
+.cardAuthor{
+    margin: 10px;
+    font-style: italic;
+}

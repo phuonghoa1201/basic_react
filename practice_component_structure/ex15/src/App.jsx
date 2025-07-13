@@ -6,7 +6,6 @@ import UserSummary from './components/UserSummary/UserSummary';
 function App(){
   return(
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
-      
       <div style={{ display: 'flex', flex: 1 }}>
         <Sidebar />
       <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: '20px' }}>

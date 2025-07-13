@@ -1,0 +1,48 @@
+.cardItem {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 16px;
+    background-color: rgb(253, 249, 249);
+    padding-bottom: 16px;
+    display: grid;               
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto 1fr auto; 
+    gap: 10px;                 
+}
+
+.cardImg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cardTitle {
+    color: black;
+    font-weight: 700;
+    margin: 10px;  
+}
+
+.cardPrice {
+    color: rgb(142, 139, 139);
+    font-weight: 700;
+     margin: 10px; 
+     color: #068206;
+     font-size: larger;
+}
+.inStock{
+    color: #074507;
+    background-color: #4ff14f;
+    margin: 10px; 
+    width: 30%;
+    text-align: center;
+
+}
+
+.outStock{
+    color: #71050a;
+    background-color: #efa1a1;
+    width: 30%;
+    margin: 10px; 
+}

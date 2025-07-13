@@ -1,0 +1,47 @@
+.alert {
+  padding: 10px 10px;
+  margin: 5px;
+  font-size: 16px;
+  width: 30%;
+  position: relative;
+  
+}
+
+.alert.success {
+  background-color: #ace9b9;
+  color: #028f33;
+  border: solid 1px #025018;
+}
+
+.alert.error {
+  background-color: #fa8696;
+  color: #990216;
+  border: solid 1px #990216;
+}
+
+.alert.warning {
+  background-color: #ddf182;
+  border: 2px solid #9aa208;
+  color: #8fa422;
+}
+
+.alert.info {
+  background-color: #beb6fa;
+  color: #3f48c2;
+  border: 2px solid #476ed1;
+}
+
+.icon{
+  margin-right: 5px;
+}
+
+.btn-close{
+  position:absolute;
+  background: transparent;
+  border: none;
+  color:inherit;
+  right: 8px;
+  top: 8px;
+  font-size: 20px;
+}
+
