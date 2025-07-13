@@ -1,12 +1,17 @@
-# React + Vite
+## 🖥️ Exercise 15: Dashboard Layout
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Goal
+Create a `DashboardLayout` component that combines several existing components into a cohesive dashboard page.
 
-Currently, two official plugins are available:
+![Dashboard layout with sidebar, main panel, user summary, and footer.](https://i.pinimg.com/736x/a4/07/b4/a407b4abd43a108aaedc7b92011c4641.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ What to include
+- `Sidebar` – navigation or category list on the side
+- `MainPanel` – main content area
+- `UserSummary` – user info or stats card
+- `Footer` – footer at the bottom
+
+---
