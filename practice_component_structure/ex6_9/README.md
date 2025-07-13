@@ -1,4 +1,4 @@
-## Exercises 6 to 10
+## Exercises 6 to 9
 
 ![React exercises 6–9: Page layout, StaticCard, card grid, and responsive gallery.](https://i.pinimg.com/736x/e1/17/74/e11774a9323a248ce03d91d0d97d77a2.jpg)
 
