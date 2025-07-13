@@ -1,12 +1,42 @@
-# React + Vite
+### 🧩 Exercises 10–14: UI Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React exercises 10-14: Page layout, StaticCard, card grid, and responsive gallery.](https://i.pinimg.com/736x/f4/14/ca/f414ca99d584aac979f29ab0a3dcf57f.jpg)
 
-Currently, two official plugins are available:
+![React exercises 10-14: Page layout, StaticCard, card grid, and responsive gallery.](https://i.pinimg.com/736x/2c/b4/e3/2cb4e3db402c074ea1a7ad3e80da469e.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React exercises 10-14: Page layout, StaticCard, card grid, and responsive gallery.](https://i.pinimg.com/736x/a1/4a/42/a14a428acd805ddc222297d7cc20ff70.jpg)
 
-## Expanding the ESLint configuration
+10. **Navbar Component**  
+    Top navigation bar with static links: Home, About, Contact.  
+    Highlight the selected item using CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+11. **LoadingSpinner Component**  
+    CSS-based spinner animation (purely visual).
+
+12. **ProfileCard Component**  
+    Show:
+    - User avatar
+    - Hardcoded name & title
+    - Follow button  
+    Styled with CSS Module.
+
+13. **FeatureList Component**  
+    Render three `<li>` features inside a styled `<ul>`.
+
+14. **StaticArticle Component**  
+    Return an article layout with:
+    - Title
+    - Image
+    - Body paragraph  
+    Use semantic HTML tags like `<article>`, `<h2>`, and `<p>`.
+
+---
+
+## ⚙️ Getting Started
+
+### Create Vite + React project (if not yet)
+```bash
+npm create vite@latest my-react-app -- --template react
+cd my-react-app
+npm install
+npm run dev
