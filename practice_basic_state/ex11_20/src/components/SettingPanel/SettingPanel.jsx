@@ -1,9 +1,14 @@
+
+
 import DisplaySetting from "../DisplaySetting/DisplaySetting";
+
 
 function SettingPanel({theme}){
     return(
-        <DisplaySetting theme={theme}/>
+        <div>
+        <div>This is setting panel</div>
+        <DisplaySetting theme ={theme} />
+        </div>
     );
-
 }
 export default SettingPanel;

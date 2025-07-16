@@ -9,7 +9,7 @@ function Home(){
         <LoadingSpinner/>
         <br></br>
         <FeatureList/>
-        <StaticArticle/>
+        {/* <StaticArticle/> */}
         </>
     );
 }

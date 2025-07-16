@@ -1,3 +1,4 @@
+
 function DisplaySetting({theme}){
     return(
         <div>
@@ -5,5 +6,6 @@ function DisplaySetting({theme}){
             <div>{theme}</div>
         </div>
     );
+
 }
 export default DisplaySetting;
