@@ -1,0 +1,15 @@
+.on{
+    background-color: #14d41e;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    padding: 5px 7px;
+}
+
+.off{
+    background-color: #e91414;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 5px 7px;
+    border: none;
+}

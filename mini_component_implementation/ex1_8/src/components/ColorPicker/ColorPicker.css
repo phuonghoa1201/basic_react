@@ -1,0 +1,26 @@
+.red {
+     background-color: red;
+    padding: 40px 40px;
+}
+
+.blue {
+    background-color: blue;
+    padding: 40px 40px;
+}
+
+.orange {
+    background-color: orange;
+    padding: 40px 40px;
+}
+
+.green {
+    background-color: green;
+    padding: 40px 40px;
+}
+
+.colorBtn{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
