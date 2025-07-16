@@ -1,12 +1,50 @@
-# React + Vite
+## Exercises 6 to 9
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React exercises 6–9: Page layout, StaticCard, card grid, and responsive gallery.](https://i.pinimg.com/736x/e1/17/74/e11774a9323a248ce03d91d0d97d77a2.jpg)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 6. Build a Simple Page Layout
+- Create and combine the following components:
+  - `Header`
+  - `Sidebar`
+  - `MainContent`
+  - `Footer`
+- Display them together in `App.jsx` using CSS Flexbox or Grid layout.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 7. Create a StaticCard Component
+- Create a `StaticCard` component that shows:
+  - A static image
+  - A fixed title
+  - A short paragraph
+- Style the card with a shadow and border.
+
+---
+
+### 8. Display 6 StaticCards in a Grid
+- Use the `StaticCard` component six times inside a container.
+- Use CSS Grid or Flexbox to layout the cards in a grid.
+
+---
+
+### 9. Create a Gallery Section
+- Create a `Gallery` component that includes:
+  - A `Title` component
+  - Four static `ImageItem` components
+- Use CSS to make the gallery responsive on different screen sizes.
+
+
+
+
+---
+
+## Getting Started
+
+If you haven't already, create your Vite + React project:
+
+```bash
+npm create vite@latest my-react-app -- --template react
+cd my-react-app
+npm install
+npm run dev

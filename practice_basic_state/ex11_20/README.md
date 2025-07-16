@@ -1,12 +1,39 @@
-# React + Vite
+# React Props & State Exercises (11–20)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Continue practicing React with these 10 exercises focusing on props drilling, lists, state management, and conditional rendering:
 
-Currently, two official plugins are available:
+![My photo](https://i.pinimg.com/736x/1a/e4/ef/1ae4ef077a6f59af061f44d635823870.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **11. Prop Drilling**  
+  Pass `theme` state from `App` → `SettingsPanel` → `DisplaySetting` and display the current theme.
 
-## Expanding the ESLint configuration
+- **12. BookList**  
+  Render a list of books with `BookItem` showing title, author, and year.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **13. ProductCard**  
+  Display product name and price; show stock status with conditional styling.
+
+- **14. TaskList & TaskItem**  
+  Render tasks with checkbox; toggle completed state; completed tasks show strikethrough.
+
+- **15. ShoppingCart**  
+  Manage a list of items in state; add new products via input and button.
+
+- **16. ListContainer**  
+  Conditionally show or hide a list of items based on `showList` boolean prop.
+
+- **17. ShoppingCart Edit/Delete**  
+  Extend ShoppingCart with Delete and Edit buttons to remove or update items.
+
+- **18. Card Component (Composition)**  
+  Create a styled wrapper component that renders passed children inside.
+
+- **19. ThemeSwitcher**  
+  Toggle between 'light' and 'dark' themes; update displayed text and styling accordingly.
+
+- **20. PostItem Show/Hide Content**  
+  Add a toggle button to show or hide post details using internal state.
+
+---
+
+**Happy coding! 🚀**
